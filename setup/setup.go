@@ -7,9 +7,9 @@ import (
 )
 
 func init() {
-	// Seed randomines
+	// Seed randomines.
 	rand.Seed(time.Now().UnixNano())
 
-	// Adjust SO threads
+	// Adjust SO threads.
 	runtime.GOMAXPROCS(runtime.NumCPU())
 }
