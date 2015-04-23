@@ -1,5 +1,7 @@
 # Runtime
 
+A helper package which initializes the Go runtime.
+
 ## Installation
 
 ``` bash
